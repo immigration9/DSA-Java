@@ -1,5 +1,10 @@
 import java.util.ArrayList;
-
+/**
+ * ArrayStack
+ * Stack implementation in ArrayList form
+ * @author immigration9
+ * @param <T> well, anything can basically go in here
+ */
 public class ArrayStack<T> {
 	private ArrayList<T> stack;
 	private int size;
